@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+body {
+  font-family: 'Roboto Slab', serif; }
+
+header {
+  height: 100vh;
+  background: url("../imgs/cre_01.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; }
+  header nav #navbarColor01 .active {
+    color: #FF4C4C !important; }
+  header .texto {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    header .texto .textos .title {
+      color: #D2D1D1;
+      font-size: 2.3rem; }
+    header .texto .textos .parrafo {
+      color: #E7E6E6;
+      font-size: 1rem; }
+  header .opacidad {
+    opacity: 0.8 !important; }
+
+main .services {
+  margin-top: 80px; }
+  main .services .title h3 {
+    font-size: 1.8rem;
+    color: #FF4C4C;
+    font-weight: 300;
+    letter-spacing: 1px; }
+  main .services .title hr {
+    width: 10%;
+    border: 1px solid #FF4C4C; }
+  main .services .list {
+    margin-top: 50px; }
+    main .services .list .item-list .icono {
+      font-size: 1.5rem;
+      text-align: center; }
+      main .services .list .item-list .icono i {
+        color: #FF4C4C; }
+    main .services .list .item-list .service .service-title {
+      font-size: 1.2rem; }
+    main .services .list .item-list .service .service-pha {
+      margin-top: 20px; }
+
+main .skills {
+  background: #f9f9f9;
+  margin-top: 80px; }
+  main .skills .imagen {
+    height: 400px;
+    background: url("../imgs/cre_01-48.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover; }
+  main .skills .trabajo {
+    height: 400px;
+    padding: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    main .skills .trabajo .titulo {
+      font-size: 1.8rem;
+      color: #FF4C4C;
+      font-weight: 300;
+      letter-spacing: 1px; }
+    main .skills .trabajo hr {
+      width: 10%;
+      border: 1px solid #FF4C4C; }
+
+main .proyectos {
+  margin-top: 100px; }
+  main .proyectos .title h3 {
+    font-size: 1.8rem;
+    color: #FF4C4C;
+    font-weight: 300;
+    letter-spacing: 1px; }
+  main .proyectos .title hr {
+    width: 10%;
+    border: 1px solid #FF4C4C; }
+  main .proyectos .list-proyectos {
+    margin-top: 60px; }
+    main .proyectos .list-proyectos .proyecto {
+      border: none !important; }
+
+main .customers {
+  /*background: $fondo;*/
+  margin-top: 80px; }
+  main .customers .title {
+    /*margin-top: 80px;*/ }
+    main .customers .title h3 {
+      font-size: 1.8rem;
+      color: #FF4C4C;
+      font-weight: 300;
+      letter-spacing: 1px; }
+    main .customers .title hr {
+      width: 10%;
+      border: 1px solid #FF4C4C; }
+  main .customers .fila-comentarios {
+    margin-top: 50px; }
+    main .customers .fila-comentarios .fila-carrousel {
+      /*margin-bottom: 100px;*/ }
+      main .customers .fila-comentarios .fila-carrousel .carousel-indicators {
+        left: 0;
+        top: -50px;
+        height: 50%; }
+        main .customers .fila-comentarios .fila-carrousel .carousel-indicators .indicador {
+          border-radius: 50%;
+          background: #FF4C4C !important;
+          width: 20px; }
+      main .customers .fila-comentarios .fila-carrousel .comentarios .comentario .texto-comentario .texto .parrafo {
+        color: #808080;
+        line-height: 30px; }
+      main .customers .fila-comentarios .fila-carrousel .comentarios .comentario .cliente {
+        margin-top: 20px; }
+        main .customers .fila-comentarios .fila-carrousel .comentarios .comentario .cliente .imagen img {
+          border-radius: 50% !important; }
+        main .customers .fila-comentarios .fila-carrousel .comentarios .comentario .cliente .nombre .nombre-cliente {
+          font-size: .8rem; }
+
+main .contacto {
+  margin-top: 100px;
+  background: url("../imgs/cre_01.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; }
+  main .contacto .title {
+    margin-top: 80px; }
+    main .contacto .title h3 {
+      font-size: 1.8rem;
+      color: #f9f9f9;
+      font-weight: 300;
+      letter-spacing: 1px; }
+    main .contacto .title hr {
+      width: 10%;
+      border: 1px solid #f9f9f9; }
+  main .contacto .formulario {
+    margin-top: 50px;
+    color: #070707; }
+    main .contacto .formulario .mapa {
+      margin-bottom: 80px; }
+
+footer {
+  background: #FF4C4C;
+  padding: 10px;
+  text-align: center;
+  color: #f9f9f9; }

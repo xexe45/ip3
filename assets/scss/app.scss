@@ -1,0 +1,239 @@
+$predominante: #FF4C4C;
+$fondo: #f9f9f9;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+body{
+    font-family: 'Roboto Slab', serif;
+}
+header{
+    height: 100vh;
+    background: url('../imgs/cre_01.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    nav{
+        #navbarColor01{
+            .active{
+                color: $predominante !important;
+            }
+        }
+    }
+    .texto{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        .textos{
+            .title{
+                color: #D2D1D1;
+                font-size: 2.3rem;
+            }
+            .parrafo{
+                color: #E7E6E6;
+                font-size: 1rem;
+            }
+        }
+        
+    }
+    .opacidad{
+        opacity: 0.8 !important;
+    }
+
+    
+}
+
+main{
+    .services{
+        margin-top: 80px;
+        .title{
+            h3{
+                font-size: 1.8rem;
+                color: $predominante;
+                font-weight: 300;
+                letter-spacing: 1px;
+            }
+            hr{
+                width: 10%;
+                border: 1px solid $predominante;
+            }
+        }
+        .list{
+            margin-top: 50px;
+            .item-list{
+                .icono{
+                    font-size: 1.5rem;
+                    text-align: center;
+                    i{
+                        color: $predominante;
+                    }
+                }
+                .service{
+                    .service-title{
+                        font-size: 1.2rem;
+                    }
+                    .service-pha{
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    .skills{
+        background: $fondo;
+        margin-top: 80px;
+        .imagen{
+            height: 400px;
+            background: url('../imgs/cre_01-48.jpg');
+            background-attachment: fixed;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .trabajo{
+            height: 400px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .titulo{
+                font-size: 1.8rem;
+                color: $predominante;
+                font-weight: 300;
+                letter-spacing: 1px;
+            }
+            hr{
+                width: 10%;
+                border: 1px solid $predominante;
+            }
+        }
+    }
+
+    .proyectos{
+        margin-top: 100px;
+        .title{
+            h3{
+                font-size: 1.8rem;
+                color: $predominante;
+                font-weight: 300;
+                letter-spacing: 1px;
+            }
+            hr{
+                width: 10%;
+                border: 1px solid $predominante;
+            }
+        }
+        .list-proyectos{
+            margin-top: 60px;
+            .proyecto{
+                border: none !important;
+            }
+        }
+    }
+
+    .customers{
+        /*background: $fondo;*/
+        margin-top: 80px;
+        
+        .title{
+            /*margin-top: 80px;*/
+            h3{
+                font-size: 1.8rem;
+                color: $predominante;
+                font-weight: 300;
+                letter-spacing: 1px;
+            }
+            hr{
+                width: 10%;
+                border: 1px solid $predominante;
+            }
+        }
+        .fila-comentarios{
+            margin-top: 50px;
+
+            .fila-carrousel{
+                /*margin-bottom: 100px;*/
+                .carousel-indicators{
+                    left: 0;
+                    top: -50px;
+                    height: 50%;
+                    
+                    .indicador{
+                        border-radius: 50%;
+                        background: $predominante !important;
+                        width: 20px;
+                    }
+                }
+                .comentarios{
+                    .comentario{
+                        .texto-comentario{
+                            .texto{
+                                .parrafo{
+                                    color: #808080;
+                                    line-height: 30px;
+                                }
+                            }
+                        }
+                        .cliente{
+                            margin-top: 20px;
+                            .imagen{
+                                
+                                img{
+                                    border-radius: 50% !important;
+                                }
+                            }
+                            .nombre{
+                                .nombre-cliente{
+                                    font-size: .8rem;
+                                }
+                            }
+                        }
+                       
+                    }
+                }
+            }
+           
+            
+        }
+    }
+
+    .contacto{
+        margin-top: 100px;
+        background: url('../imgs/cre_01.jpg');
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+        
+        .title{
+            margin-top: 80px;
+            h3{
+                font-size: 1.8rem;
+                color: #f9f9f9;
+                font-weight: 300;
+                letter-spacing: 1px;
+            }
+            hr{
+                width: 10%;
+                border: 1px solid #f9f9f9;
+            }
+        }
+
+        .formulario{
+            margin-top: 50px;
+            color: #070707;
+            .mapa{
+                margin-bottom: 80px;
+            }
+        }
+        
+    }
+
+}
+
+footer{
+    background: $predominante;
+    padding: 10px;
+    text-align: center;
+    color: #f9f9f9;
+}
+
