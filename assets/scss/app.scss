@@ -25,11 +25,12 @@ header{
         .textos{
             .title{
                 color: #D2D1D1;
-                font-size: 2.3rem;
+                font-size: 2.5rem;
             }
             .parrafo{
                 color: #E7E6E6;
-                font-size: 1rem;
+                font-size: 1.4rem;
+                text-transform: uppercase;
             }
         }
         
@@ -82,29 +83,54 @@ main{
         background: $fondo;
         margin-top: 80px;
         .imagen{
-            height: 400px;
-            background: url('../imgs/cre_01-48.jpg');
+            
+            background: url('../imgs/cre_01-47.jpg');
             background-attachment: fixed;
             background-position: center center;
             background-size: cover;
         }
 
         .trabajo{
-            height: 400px;
+           
             padding: 30px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            margin-top: 40px;
+            
             .titulo{
                 font-size: 1.8rem;
                 color: $predominante;
                 font-weight: 300;
                 letter-spacing: 1px;
+                text-align: center;
             }
             hr{
                 width: 10%;
                 border: 1px solid $predominante;
+            }
+            .parrafo{
+                margin-top: 20px;
+                line-height: 30px;
+                text-align: justify;
+            }
+        }
+
+        .vision{
+            padding: 30px;
+            .titulo{
+                font-size: 1.3rem;
+                color: $predominante;
+                font-weight: 300;
+                letter-spacing: 1px;
+                text-align: center;
+            }
+            hr{
+                width: 10%;
+                border: 1px solid $predominante;
+            }
+            .parrafo{
+                margin-top: 20px;
+                line-height: 30px;
+                text-align: justify;
+                font-size: .8rem;
             }
         }
     }
@@ -237,3 +263,73 @@ footer{
     color: #f9f9f9;
 }
 
+.myBtn2 {
+    width: 50px;
+    height: 50px;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: $predominante;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    text-align: center;
+    padding: 10px;
+    /* Some padding */
+    border-radius: 50%;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+    
+}
+
+@media only screen and (max-width: 600px) {
+    main{
+        .services{
+            
+            .list{
+               
+                .item-list{
+                    
+                    .service{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .skills{
+            
+            .vision{
+               .mtv{
+                   margin-top: 30px;
+               }
+            }
+        }
+
+        .contacto{
+        
+
+            .formulario{
+               
+                .mapa{
+                    margin-top: 20px;
+                }
+            }
+            
+        }
+    }
+    
+}
