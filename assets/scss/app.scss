@@ -73,6 +73,7 @@ main{
                     }
                     .service-pha{
                         margin-top: 20px;
+                        text-align: justify;
                     }
                 }
             }
@@ -132,6 +133,10 @@ main{
                 text-align: justify;
                 font-size: .8rem;
             }
+        }
+
+        .certifica{
+            padding: 30px;
         }
     }
 
@@ -246,9 +251,22 @@ main{
 
         .formulario{
             margin-top: 50px;
-            color: #070707;
+            
+            .correo{
+                .escribenos{
+                    color: #ffffff;
+                }
+                .card-correo{
+                    color: #070707;
+                }
+            }
             .mapa{
                 margin-bottom: 80px;
+                color: #ffffff;
+                .mapa-title{
+                    color: #ffffff;
+                    font-size: 1.3rem;
+                }
             }
         }
         
@@ -321,13 +339,17 @@ footer{
 
         .contacto{
         
-
-            .formulario{
-               
-                .mapa{
-                    margin-top: 20px;
+            .correo{
+                .escribenos{
+                    text-align: center;
                 }
+                
             }
+            .mapa{
+                margin-top: 20px;
+                text-align: center;
+            }
+            
             
         }
     }

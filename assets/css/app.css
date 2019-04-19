@@ -48,7 +48,8 @@ main .services {
     main .services .list .item-list .service .service-title {
       font-size: 1.2rem; }
     main .services .list .item-list .service .service-pha {
-      margin-top: 20px; }
+      margin-top: 20px;
+      text-align: justify; }
 
 main .skills {
   background: #f9f9f9;
@@ -90,6 +91,8 @@ main .skills {
       line-height: 30px;
       text-align: justify;
       font-size: .8rem; }
+  main .skills .certifica {
+    padding: 30px; }
 
 main .proyectos {
   margin-top: 100px; }
@@ -158,10 +161,17 @@ main .contacto {
       width: 10%;
       border: 1px solid #f9f9f9; }
   main .contacto .formulario {
-    margin-top: 50px;
-    color: #070707; }
+    margin-top: 50px; }
+    main .contacto .formulario .correo .escribenos {
+      color: #ffffff; }
+    main .contacto .formulario .correo .card-correo {
+      color: #070707; }
     main .contacto .formulario .mapa {
-      margin-bottom: 80px; }
+      margin-bottom: 80px;
+      color: #ffffff; }
+      main .contacto .formulario .mapa .mapa-title {
+        color: #ffffff;
+        font-size: 1.3rem; }
 
 footer {
   background: #FF4C4C;
@@ -204,5 +214,8 @@ footer {
     text-align: center; }
   main .skills .vision .mtv {
     margin-top: 30px; }
-  main .contacto .formulario .mapa {
-    margin-top: 20px; } }
+  main .contacto .correo .escribenos {
+    text-align: center; }
+  main .contacto .mapa {
+    margin-top: 20px;
+    text-align: center; } }
