@@ -137,6 +137,37 @@ main{
 
         .certifica{
             padding: 30px;
+            
+        }
+
+        .certificados{
+            padding: 30px;
+            .certificado-t{
+                .titulo{
+                    font-size: 1.3rem;
+                    color: $predominante;
+                    font-weight: 300;
+                    letter-spacing: 1px;
+                    text-align: center;
+                }
+                hr{
+                    width: 10%;
+                    border: 1px solid $predominante;
+                }
+            }
+            .certificado-file{
+                margin-top: 20px;
+                h3{
+                    font-size: 1.3rem;
+                    font-weight: 300;
+                    letter-spacing: 1px;
+                    
+                }
+                p{
+                    margin-top: 20px;
+                    font-size: .8rem;
+                }
+            }
         }
     }
 
@@ -320,7 +351,7 @@ footer{
             .list{
                
                 .item-list{
-                    padding: 10px;
+                    padding: 20px;
                     .service{
                         text-align: center;
                     }
@@ -334,6 +365,14 @@ footer{
                .mtv{
                    margin-top: 30px;
                }
+            }
+
+            .certificados{
+               
+                .certificado-file{
+                    margin-top: 40px;
+                    
+                }
             }
         }
 

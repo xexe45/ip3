@@ -93,6 +93,26 @@ main .skills {
       font-size: .8rem; }
   main .skills .certifica {
     padding: 30px; }
+  main .skills .certificados {
+    padding: 30px; }
+    main .skills .certificados .certificado-t .titulo {
+      font-size: 1.3rem;
+      color: #FF4C4C;
+      font-weight: 300;
+      letter-spacing: 1px;
+      text-align: center; }
+    main .skills .certificados .certificado-t hr {
+      width: 10%;
+      border: 1px solid #FF4C4C; }
+    main .skills .certificados .certificado-file {
+      margin-top: 20px; }
+      main .skills .certificados .certificado-file h3 {
+        font-size: 1.3rem;
+        font-weight: 300;
+        letter-spacing: 1px; }
+      main .skills .certificados .certificado-file p {
+        margin-top: 20px;
+        font-size: .8rem; }
 
 main .proyectos {
   margin-top: 100px; }
@@ -210,10 +230,14 @@ footer {
   /* Increase font size */ }
 
 @media only screen and (max-width: 600px) {
-  main .services .list .item-list .service {
-    text-align: center; }
+  main .services .list .item-list {
+    padding: 20px; }
+    main .services .list .item-list .service {
+      text-align: center; }
   main .skills .vision .mtv {
     margin-top: 30px; }
+  main .skills .certificados .certificado-file {
+    margin-top: 40px; }
   main .contacto .correo .escribenos {
     text-align: center; }
   main .contacto .mapa {
