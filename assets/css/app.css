@@ -182,12 +182,13 @@ main .contacto {
       border: 1px solid #f9f9f9; }
   main .contacto .formulario {
     margin-top: 50px; }
-    main .contacto .formulario .correo .escribenos {
-      color: #ffffff; }
-    main .contacto .formulario .correo .card-correo {
-      color: #070707; }
+    main .contacto .formulario .correo {
+      margin-bottom: 80px; }
+      main .contacto .formulario .correo .escribenos {
+        color: #ffffff; }
+      main .contacto .formulario .correo .card-correo {
+        color: #070707; }
     main .contacto .formulario .mapa {
-      margin-bottom: 80px;
       color: #ffffff; }
       main .contacto .formulario .mapa .mapa-title {
         color: #ffffff;
